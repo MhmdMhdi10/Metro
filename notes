@@ -1,0 +1,64 @@
+USER MODEL:
+    "User"          complete
+    "phone_number"  complete
+    "email"         complete
+
+BANK MODEL:
+    "central_bank"  complete
+    "account_type"  complete
+    "bank"          complete
+    "bank_account"  complete
+
+METRO MODEL:
+    "metro_account" complete
+    "trip"          complete
+    "cards"         complete
+            ========= Validations Complete =========
+change Email table to email
+
+
+
+
+
+make a unique id for cards and trips   done
+
+complete create methods                done
+
+make a get obj for every class         done
+
+complete show info in metro account    done
+
+create Exceptions                      done
+
+make edit defs                         done
+
+fix ERD
+
+use update on edit modules
+
+write tests:
+    User
+        User                done
+        PhoneNumber
+        Email
+    Bank
+        CentralBank
+        Bank
+        AccountType
+        BankAccount
+    Metro
+        MetroAccount
+        MetroCard
+        Trip
+
+
+
+
+complete menu
+
+use os
+
+create logs
+
+fix database
+

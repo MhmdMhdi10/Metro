@@ -1,0 +1,165 @@
+===================< Menu >===================
+1.Metro
+2.Bank
+
+    ===================< Bank >===================
+    1.Login
+    2.SignUp
+        ================< <bank_account> >================
+        1.Transfer
+        2.deposit
+        3.cash
+        4.profile
+        5.logout
+
+    ===================< Metro >===================
+    1.Login
+    2.SignUp
+        ================< <username> >================
+        1.Profile $_$
+        3.Card Service $_$
+        4.Trip Service $_$
+        5.management $_$   # normal users doesnt have management
+        6.logout
+
+            ================< 1.Profile >================
+            1.my info
+            2.add bank account
+            3.edit profile
+            4.back
+
+                ================< 1.my info >================
+                info ...
+
+                ================< 2.add bank account >================
+                bank_name :
+                account_number :
+
+                ================< 3.edit profile >================
+                1.edit first_name
+                2.edit last_name
+                3.edit national_id
+                4.edit password
+                5.edit username
+                6.edit phone_number
+                7.edit email
+
+
+
+            ===================< 3.card Service >=================
+            1.My cards
+            2.buy card
+            3.back
+
+                ===================< 1.My cards >=================
+                card list ...
+                press any enter to go back ...
+
+                ===================< 2.buy card >=================
+                1_3.card list ...
+                0.back
+
+                    ================< 1_3.card list ... >================
+                    1_. accounts list ...
+                    0. other accounts
+                    # write nothing to go back
+                    which account :
+                    bank_account_password :
+
+
+
+
+
+
+            ===================< 4.Trip Service >=================
+            1.My Trips
+            2.Buy Trip
+            3.cancel trip
+            4.back
+
+
+                ================< 1.Buy Trip >================
+                my Trips list...
+                2.back
+
+                ================< 2.Buy Trip >================
+                1_.cards list ...
+                # write nothing to go back
+                which one :
+
+                ================< 1.cancel trip >================
+                # write nothing to go back
+                trip id :
+
+
+
+
+            ===================< 5.MANAGEMENT >=================
+            1.user management
+            2.admin management
+
+                ===================< 1.users management >=================
+                1.all users list
+                2.get and edit user info
+                3.add user
+                4.ban management
+                5.remove user
+                6.back
+
+                    ===================< 2.get and edit user info >=================
+                    # write nothing to go back
+                    user_id :
+                        ===================< 2.get and edit user info >=================
+                        1.edit cards
+                        2.edit trips
+
+                            ===================< 1.edit cards >=================
+                            cards list
+                            # write nothing to go back
+                            which one:
+                                ===================< 1.edit cards >=================
+                                1.expire card
+                                2.change expiration date    # only for expirables
+                                3.change credit     # only for expirables and credit
+
+                    ===================< 4.ban management >=================
+                    1.ban user
+                    2.unban user
+                    3.banned_users
+
+                    ===================< 2.add user >=================
+                    # write nothing to go back
+                    FirstName:
+                    LastName:
+                    National_id:
+                    Username:
+                    password:
+
+                    ===================< 3.remove user >=================
+                    # write nothing to go back
+                    user_id :
+
+
+
+                ===================< 2.admin management >=================
+                1.all admins list
+                2.get admin info
+                3.add admin
+                4.remove admin
+                5.back
+
+                    ===================< 2.get admin info >=================
+                    # write nothing to go back
+                    admins user_id :
+
+                    ===================< 3.add admin >=================
+                    # write nothing to go back
+                    admins user_id :
+
+                    ===================< 4.remove admin >=================
+                    # write nothing to go back
+                    admins user_id :
+
+
+
+
